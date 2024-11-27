@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name">Finance Calculator</string>
+    <string name="gst_vat">GST/VAT</string>
+    <string name="sales">Sales</string>
+    <string name="net_profit">Net Profit</string>
+    <string name="markup">Markup</string>
+    <string name="market">Market</string>
+    <string name="margin">Margin</string>
+    <string name="more">More..</string>
+    <string name="grs_prft">Grs prft</string>
+    <string name="disc">Disc</string>
+    <string name="debtor">Debtor</string>
+    <string name="creditor">creditor</string>
+    <string name="contract">Contract</string>
+    <string name="cash">Cash</string>
+    <string name="brk_even">Brk Even</string>
+    <string name="tx">-TX</string>
+    <string name="plus_tx">+Tx</string>
+    <string name="c">C</string>
+    <string name="equal">=</string>
+    <string name="slash">/</string>
+    <string name="dot">.</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="astarik">*</string>
+    <string name="_9">9</string>
+    <string name="_8">8</string>
+    <string name="_7">7</string>
+    <string name="_6">6</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="_0">0</string>
+    <string name="cotation" />
+
+    <string name="tv2">debtorsD = (salesD /365) * customerDaysCreditD)*-1
+creditorsD = (costofSalesD)/365)*supplierDays CreditD)
+operatingProfitD = (salesD - costOfSalesD- expenses D)
+netCashD =(debtorsD + creditors D+ operatingProfitD) \n\nInformed by:\n<a href="http://www.accaglobal.com/uk/en/student/exam-supportresources/fundamentals-exams-study-resources/f2/technical-articles/ratio-analysis.html">http://www.accaglobal.com/uk/en/student/exam-support
+resources/fundamentals-exams-study-resources/f2
+/technical-articles/ratio-analysis.html
+</a></string>
+    <string name="hyperlinkForcast1">salesYearOneD=CalcFutureAmount(salesYearOneHeadD,
+salesGrowth PercentD, 0.00)
+salesYearTwoD=CalcFutureAmount(sales YearOneHeadD,
+salesGrowth PercentD, 1.00)
+salesYearThreeD=CalcFutureAmount(sales YearOneD, salesGrowthPercentD, 2.00)\nCOSYearOneD=(sales YearOneD* (ForecastCoSPercentD/
+100))\nCOSYearTwoD=(sales YearTwo D* (ForecastCOSPercentD/
+100))\nCOSYearThreeD=(sales YearThree D*(ForecastCOSPercentD/
+100))\ngross ProfitYearOneD=(salesYearOneD-coSYearOneD)
+grossProfitYearTwoD= (salesYearTwoD-COSYearTwoD)
+grossProfitYearThreeD=(salesYearThreeD-COSYearThreeD)
+expenses YearOneD= (CalcFutureAmount(expen
+sesYearOneHeadD, expenses Growth PercentD,
+0.00))
+expensesYearTwoD= (CalcFutureAmount (expe
+nsesYearOneHeadD, expenses Growth PercentD,
+1.00)\nexpensesYearThreeD=(CalcFutureAmount(expe
+nsesYearOneHeadD, expenses Growth PercentD,
+2.00))
+netProfitYearOneD=(grossProfitYearOneD-expenses YearOn
+eD)\n netProfitYearTwoD=(gross ProfitYear TwoD-expenses YearT
+woD)\n netProfitYearThreeD=(grossProfitYearThreeD-expenses Year
+ThreeD)\n\n\nCalcFutureAmount Function:\nint CalcFutureAmount(Double StartAmount, double
+AnnualInterest, double Years){\nint FutureAmountl 0\ndouble FutureAmountD = 0.00\ndouble Decimallnterest =\nAnnuallnterest/100n FutureAmountD =\nStartAmount (Math.pow(1+DecimalInterest), Years))\n
+FutureAmountl = (int)FutureAmountD\nreturn FutureAmountl\n}\n\nInformed by:\n<a href="http://www.accaglobal.com">http://www.accaglobal.com\n\n</a>
+    <a href="http://www.accountingcoach.com">http://www.accountingcoach.com\n\n</a>
+    <a href="http://a4id.org>files>user>documents">http://a4id.org>files>user>documents\n\n</a>
+    <a href="http://www.gov.uk">http://www.gov.uk\n\n</a>
+        <a href="http://www.investopedia.com">http://www.investopedia.com\n\n</a>
+             <a href="http://en.m.wikipedia.org">http://en.m.wikipedia.org</a>
+    </string>
+
+    <string name="hyperlinkLoan">interestPerMonth D = (interestPercentD / 1200)\nmonthlyRepayD = (interestPerMonthD * IoanAmountD)/
+(1-(Math.pow (1 + interest PerMonthD), (-1*
+monthsTo RepayD)))
+totalRepayD = (monthlyRepayD * monthsToRepayD)\n\nInformed by:\n<a href="https://en.m.wikipedia.org/wiki">https://en.m.wikipedia.org/wiki</a>
+  </string>
+
+    <string name="hyperlinkMargin">salesNetD (salesPriceD - (sales PriceD - (salesPriceD/(1
++(vatPercentD) / 100)))\ngrossProfitD = (salesNetD - costPriceD)\nmarkupPercentD ((sales NetD - costPriceD) / costPriceD)
+*100)\nmarginPercentD (salesNetD - costPriceD) / salesNetD)*
+100\n\nInformed by:\n<a href="http://www.investopedia.com/ask/answers/102714/whats-difference-between-profit-margin-and-markup.asp">http://www.investopedia.com/ask/answers/102714/whats
+-difference-between-profit-margin-and-markup.asp</a>
+    </string>
+
+    <string name="hyperlinkMarkup">salesNetPriceD (costPriceD + (costPriceD*
+(markupPercentD/ 100))\nvatD salesNetPriceD * (vatPercentD/100)\nmarginPercentD (salesNetPriceD - costPriceD)
+salesNetPriceD) * 100\ngrossProfitPercentD = (salesNetPriceD - costPriceD)\nsalesGrossPriceD (salesNetPriceD + vatD)
+Informed by:\n<a href="http://www.investopedia.com/ask/answers/102714/whats-difference-between-profit-margin-and-markup.asp">http://www.investopedia.com/ask/answers/102714/whats
+-difference-between-profit-margin-and-markup.asp</a>
+    </string>
+
+    <string name="hyperlinkProfit">grossProfitD = salesD - costOfSalesD\ngrossProfitPercentD = (grossProfitD/ salesD) * 100\nexpensesTotalD = expensesD +depreciationD +
+interestChargesD\noperatingProfitD (grossProfitD - (expensesD +
+depreciationD))\n
+operatingProfitPercentD (operatingProfitD / salesD) * 100\nnetProfitD = grossProfitD expenses TotalD\nnetProfitPercentD (netProfitD / salesD) * 100\ncashGenerationD = (grossProfitD expensesD)\nbreakevenSalesD = (expensesTotalD /
+(grossProfitPercentD/ 100))\n
+breakevenSales PercentD = (breakevenSalesD / salesD) *100)\nbreakevenDays D = (breakevenSalesD/ (salesD / 365)\n
+Informed by:\n\n<a href="http://www.investopedia.com/ask/answers/031015/what-difference-between-gross-profit-operating-profit-and-net-income.asp">http://www.investopedia.com/ask/answers/031015/what
+-difference-between-gross-profit-operating-profit-and-net
+-income.asp\n\n</a>
+        <a href="https://en.m.wikipedia.org/wiki/Gross_profit">https://en.m.wikipedia.org/wiki/Gross_profit\n\n</a>
+         <a href="http://www.investopedia.com/articles/analyst/020602.asp">http://www.investopedia.com/articles/analyst/020602.asp\n\n</a>
+              <a href="http://www.accountingcoach.com/blog/break-even-point-2">http://www.accountingcoach.com/blog/break-even-point-2</a>
+    </string>
+
+    <string name="hyperlinkVatFromNetPrice">vat1D ((salesNetPrice1D) * (vatPercent 1 D/ 100);\nsalesGrossPrice1 D = salesNetPrice1D + vat1D\nInformed by:\n\n<a href="https://www.gov.uk/vat-businesses/inclusive-exclusiveprices">https://www.gov.uk/vat-businesses/inclusive-exclusive
+prices</a>
+  </string>
+
+    <string name="hyperlinkVATfromGrossprice">vat2D ((salesGrossPrice2D - (sales Gross Price2D / (1+(vatPercent2D/ 100))))\nsalesNetPrice2D = salesGrossPrice2D - vat2D\nInformed by:\n\n<a href="https://www.gov.uk/vat-businesses/inclusive-exclusiveprices">https://www.gov.uk/vat-businesses/inclusive-exclusive
+prices</a>
+  </string>
+
+    <string name="hyperlinkSales">stage1Convert PercentD= (salesstage1D/salesstage1D)*100\n
+stage2ConvertPercentD= (salesstage2D/salesstage1 D)*100\n
+stage3Convert PercentD= (salesstage3D/salesstage 1D)*100\n
+stage4Convert PercentD= (salesstage4D/salesstage1 D)*100\n
+actualBuyersConvert PercentD= (actualbuyers D/salesstage 1D)*100\n
+targetStage1D=(targetbuyersD/(actualBuyers Convert PercentD/100))\n
+targetStage2D= (targetStage1 D*(stage2ConvertPercentD/100))\n
+targetStage3D= (targetStage1 D (stage3Convert PercentD/100))\n
+        targetStage4D= (targetStage1D*(stage4ConvertPercentD/100))\n
+        targetBuyersCalcD=(targetStage1D*(actualBuyersConvertPercentD/100))\nInformed by:\n\nThe helpful summary of funnel analysis in Wikipedia and
+        the article referenced\nJansen, B. J. and Schuster, S. (2011) Bidding on the Buying
+        Funnel for Sponsored Search Campaigns, Journal of
+        Electronic Commerce Research. 12(1), 1-18
+        Also helpful summaries and examples calculations at:\n\n<a href="https://blog.udemy.com/sales-funnel/">https://blog.udemy.com/sales-funnel/\n\n</a>
+        <a href="http://www.insightsquared.com/2013/11/the-basics-of-sales-funnel-conversion-analysis/">http://www.insightsquared.com/2013/11/the-basics-of
+        -sales-funnel-conversion-analysis/\n\n</a>
+        <a href="http://think2grow.com/marketing-resource-library/productivity-tools-and-templates/sales-funnel-calculator/">http://think2grow.com/marketing-resource-library
+        /productivity-tools-and-templates/sales-funnel-calculator/\n\n</a>
+        <a href="https://www.marketizator.com/blog/e-commerce-funnelhtml">https://www.marketizator.com/blog/e-commerce-funnelhtml\n\n</a>
+          <a href="https://www.mindtools.com/pages/article/newLDR 94.htm">https://www.mindtools.com/pages/article/newLDR 94.htm\n\n</a>
+          <a href="http://blog.close.io/cold-calling-conversion-funnelanalytics">http://blog.close.io/cold-calling-conversion-funnelanalytics\n</a>
+  </string>
+    <string name="set_your_tax">Set Your Tax</string>
+    <string name="gst_vat_value_saved_successfully">GST/VAT value saved successfully</string>
+    <string name="small_breakeven_small"><![CDATA[<small>BREAKEVEN</small>]]></string>
+    <string name="sales_must_be_required">Sales must be required!</string>
+    <string name="cost_of_sales_must_be_required">Cost of Sales must be required!</string>
+    <string name="expenses_must_be_required">Expenses must be required!</string>
+    <string name="depreciation_must_be_required">Depreciation must be required!</string>
+    <string name="small_cash_small"><![CDATA[<small>CASH</small>]]></string>
+    <string name="customer_days_credit_must_be_required">Customer Days Credit must be required!</string>
+    <string name="supplier_days_credit_must_be_required">Supplier Days Credit must be required!</string>
+    <string name="small_contract_validity_small"><![CDATA[<small>CONTRACT VALIDITY</small>]]></string>
+    <string name="probably_a_valid_contract_but_may_be_hard_to_enforce">Probably a VALID Contract, but may be hard to enforce</string>
+    <string name="probably_a_valid_contract_that_is_enforceable">Probably a VALID Contract that is enforceable</string>
+    <string name="probably_invalid_contract">Probably INVALID contract</string>
+    <string name="small_creditor_small"><![CDATA[<small>CREDITOR</small>]]></string>
+    <string name="small_debtor_small"><![CDATA[<small>DEBTOR</small>]]></string>
+    <string name="small_discount_small"><![CDATA[<small>DISCOUNT</small>]]></string>
+    <string name="normal_price_must_be_required">Normal Price must be required!</string>
+    <string name="discount_must_be_required">Discount % must be required!</string>
+    <string name="formulas">Formulas</string>
+    <string name="small_gross_profit_small"><![CDATA[<small>GROSS PROFIT</small>]]></string>
+    <string name="gst_vst_must_be_required">GST/VST % must be required!</string>
+    <string name="sales_net_price_must_be_required">Sales Net Price must be required!</string>
+    <string name="sales_gross_price_must_be_required">Sales Gross Price must be required!</string>
+    <string name="small_gst_vat_small"><![CDATA[<small>GST/VAT</small>]]></string>
+    <string name="cost_price_must_be_required">Cost Price must be required!</string>
+    <string name="small_margin_small"><![CDATA[<small>MARGIN</small>]]></string>
+    <string name="small_market_validity_small"><![CDATA[<small>MARKET VALIDITY</small>]]></string>
+    <string name="a_narrow_geographic_market_can_be_a_successful_market_position_for_a_small_business_this_is_especially_the_case_if_there_are_opportunities_to_customize_product_or_services_to_the_specific_needs_of_the_local_market_larger_businesses_can_find_local_knowledge_difficult_to_obtain_and_the_cost_of_adapting_to_the_local_market_prohibitive_targetting_specific_customers_can_be_a_successful_strategyfor_small_businesses_it_can_allow_them_to_adapt_their_products_or_services_so_they_are_better_suited_to_the_needs_of_their_targetted_customers_the_internet_has_provided_the_opportunity_for_small_scale_firms_to_customise_their_products_and_services_to_very_focused_customer_niches_and_then_to_service_wide_geographic_areas_large_firms_can_find_it_hard_to_adapt_their_product_and_services_to_very_focused_customer_segments">A narrow geographic market can be a successful market position for a small business. This is especially the case if there are opportunities to customize product or services to the specific needs of the local market. Larger businesses can find local knowledge difficult to obtain and the cost of adapting to the local market prohibitive.Targetting specific customers can be a successful strategyfor small businesses. It can allow them to adapt their products or services so they are better suited to the needs of their targetted customers. The internet has provided the opportunity for small scale firms to customise their products and services to very focused customer niches and then to service wide geographic areas. Large firms can find it hard to adapt their product and services to very focused customer segments.\n\n</string>
+    <string name="targetting_specific_customers_can_be_a_successful_strategy_for_small_businesses_it_can_allow_them_to_adapt_their_products_or_services_so_they_are_better_suited_to_the_needs_of_their_targetted_customers_the_internet_has_provided_the_opportunity_for_small_scale_firms_to_customise_their_products_and_services_to_very_focused_customer_niches_and_then_to_service_wide_geographic_areas_large_firms_can_find_it_hard_to_adapt_their_product_and_services_to_very_focused_customer_segments">Targetting specific customers can be a successful strategy for small businesses It can allow them to adapt their products or services so they are better suited to the needs of their targetted customers.The internet has provided the opportunity for small scale firms to customise their products and services to very focused customer niches and then to service wide geographic areas. Large firms can find it hard to adapt their product and services to very focused customer segments.\n\n</string>
+    <string name="a_combination_of_wide_geographic_market_and_trying_to_sell_to_everyone_is_less_likely_to_be_a_successful_strategy_for_small_firms_large_firms_are_better_suited_to_selling_to_such_customers_as_they_can_achieve_lower_costs_from_their_scale_small_firms_are_better_suited_to_customising_their_products_or_services_to_suit_specific_customers_or_a_particular_narrow_geographic_area">A combination of wide geographic market and trying to sell to everyone is less likely to be a successful strategy for small firms. Large firms are better suited to selling to such customers as they can achieve lower costs from their scale. Small firms are better suited to customising their products or services to suit specific customers or a particular narrow geographic area.\n</string>
+    <string name="offering_few_products_or_services_can_be_successful_strategy_for_small_businesses_having_a_small_range_allows_them_to_customize_their_products_and_services_to_particular_customers_and_local_markets_larger_firms_are_less_likely_to_be_so_focused_and_may_find_it_hard_to_compete">Offering few products or services can be successful strategy for small businesses Having a small range allows them to customize their products and services to particular customers and local markets. Larger firms are less likely to be so focused and may find it hard to compete.\n\n</string>
+    <string name="providing_goods_or_services_of_a_similar_quality_to_competitors_at_a_lower_price_ca_in_some_circumstances_be_successful_for_small_businesses_larger_businesses_are_often_better_suited_to_competing_on_price_to_a_broad_market_as_they_can_achieve_lower_costs_through_scale_however_sma_firms_maybe_able_to_compete_on_price_where_they_adapt_there_product_or_service_to_a_particular_customer_segment_or_geographic_area_that_has_been_ignored_by_larger_firms_also_opportunities_may_existfor_small_firms_where_labour_costs_are_lov_or_transportation_costs_are_high">Providing goods or services of a similar quality to competitors at a lower price ca in some circumstances be successful for small businesses. Larger businesses are often better suited to competing on price to a broad market as they can achieve lower costs through scale. However, sma firms maybe able to compete on price where they adapt there product or service to a particular customer segment or geographic area that has been ignored by larger firms. Also opportunities may existfor small firms where labour costs are lov or transportation costs are high.</string>
+    <string name="providing_goods_or_services_of_a_similar_quality_to_competitors_at_a_lower_price_ca_in_some_circumstances_be_successful_for_small_businesses_larger_businesses_are_often_better_suited_to_competing_on_price_to_a_broad_market_as_they_can_achieve_lower_costs_through_scale_however_sma_firms_maybe_able_to_compete_on_price_where_they_adapt_there_product_or_service_to_a_particular_customer_segment_or_geographic_area_that_has_been_ignored_by_larger_firms_also_opportunities_may_exist_for_small_firms_where_labour_costs_are_lov_or_transportation_costs_are_high">Providing goods or services of a similar quality to competitors at a lower price ca in some circumstances be successful for small businesses. Larger businesses are often better suited to competing on price to a broad market as they can achieve lower costs through scale. However, sma firms maybe able to compete on price where they adapt there product or service to a particular customer segment or geographic area that has been ignored by larger firms. Also opportunities may exist for small firms where labour costs are lov or transportation costs are high.</string>
+    <string name="small_markup_small"><![CDATA[<small>MARKUP</small>]]></string>
+    <string name="markup_must_be_required">Markup % must be required!</string>
+    <string name="cost_of_sales_credit_must_be_required">Cost of Sales Credit must be required!</string>
+    <string name="small_net_profit_small"><![CDATA[<small>NET PROFIT</small>]]></string>
+    <string name="small_sales_funnel_small"><![CDATA[<small>SALES FUNNEL</small>]]></string>
+    <string name="sales_stage_1_must_be_required">Sales Stage 1 must be required!</string>
+    <string name="sales_stage_2_must_be_required">Sales Stage 2 must be required!</string>
+    <string name="sales_stage_3_must_be_required">Sales Stage 3 must be required!</string>
+    <string name="sales_stage_4_must_be_required">Sales Stage 4 must be required!</string>
+    <string name="actual_buyers_must_be_required">Actual Buyers must be required!</string>
+    <string name="buyers_target_must_be_required">Buyers Target must be required!</string>
+    <string name="visitors_must_be_required">Visitors must be required!</string>
+    <string name="logins_must_be_required">Logins must be required!</string>
+    <string name="shoppers_must_be_required">Shoppers must be required!</string>
+    <string name="empty_below_shoppers_must_be_required">Empty Below Shoppers must be required!</string>
+    <string name="empty_below_quotations_must_be_required">Empty Below Quotations must be required!</string>
+    <string name="quotations_must_be_required">Quotations must be required!</string>
+    <string name="pitches_must_be_required">Pitches must be required!</string>
+    <string name="leads_must_be_required">Leads must be required!</string>
+    <string name="empty_below_enquirers_must_be_required">Empty Below Enquirers must be required!</string>
+    <string name="enquirers_must_be_required">Enquirers must be required!</string>
+    <string name="windows_lookers_must_be_required">Windows Lookers must be required!</string>
+    <string name="calls_must_be_required">Calls must be required!</string>
+    <string name="answers_must_be_required">Answers must be required!</string>
+    <string name="empty_below_answers_must_be_required">Empty Below Answers must be required!</string>
+    <string name="small_business_calculator_small"><![CDATA[<small>FINANCE CALCULATOR</small>]]></string>
+    <string name="please_enter_any_expression">Please Enter Any Expression</string>
+    <string name="please_enter_valid_expression">Please Enter Valid Expression</string>
+
+<!--    <string name="app_id">ca-app-pub-4922393873761854~3782518323</string>-->
+<!--    <string name="banner_ad_unit_id">ca-app-pub-4922393873761854/4931948462</string>-->
+</resources>

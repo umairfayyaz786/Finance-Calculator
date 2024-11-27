@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BusinessCalculator"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activities.SplashScreenActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.BreakEven"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Cash"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Contract"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Creditor"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Dabtors"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Discount"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.FormulasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Gross_profit"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Gst_Vat"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Margin"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Market"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.NetProfit"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Sales"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Markup"
+            android:exported="false" />
+
+
+<!--        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID"-->
+<!--            android:value="@string/app_id"/>-->
+    </application>
+
+
+</manifest>
